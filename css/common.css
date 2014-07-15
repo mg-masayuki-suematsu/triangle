@@ -1,0 +1,103 @@
+html, body {
+	background-color: #e6e6e6;
+	width: 100%;
+	margin: 0px;
+}
+
+#wrapper {
+	background-color: #ffffff;
+	position: relative;
+	width: 800px;
+	/*height: 100%;*/
+	margin: 0px auto;
+}
+
+#header {
+	background-color: #ffff00;
+	height: 100px;
+	font-size: 100px;
+	text-align: center;
+}
+
+#content {
+	padding-bottom: 20px;
+}
+
+#footer {
+	background-color: #e0ffff;
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	line-height: 20px;
+}
+
+
+
+#profile {
+	text-align: center;
+	width: 400px;
+	height: 400px;
+	margin: 80px auto 50px;
+}
+
+#gallary {
+	width: 700px;
+	margin: 20px auto;
+}
+#gallary h2 {
+	font-size: 25px;
+	line-height: 40px;
+	margin: 0px;
+}
+#gallary ul {
+	padding: 0px 25px;
+	margin: 0px;
+}
+#gallary li {
+	line-height: 250px;
+	text-align: center;
+	width: 300px;
+	height: 300px;
+	list-style: none;
+	float: left;
+	margin: 0px 50px 25px 0px;
+}
+#gallary li img {
+	display: block;
+	width: 300px;
+}
+#gallary li:nth-child(even) {
+	margin-right: 0px;
+}
+#gallary li:nth-last-child(2),
+#gallary li:last-child {
+	margin-bottom: 0px;
+}
+
+#twitter {
+	width: 520px;
+	height: 600px;
+	margin: 0px auto 20px;
+}
+
+#contact {
+	width: 500px;
+	margin: 60px auto 40px;
+}
+#contact span {
+	font-size: 8px;
+}
+#contact h4#error, 
+#contact h4#ok {
+	color: red;
+	font-size: 10px;
+	margin: 20px 0px 0px 0px;
+}
+#contact h4#ok {
+	color: blue;
+}
+#contact form {
+	margin-top: 20px;
+}
